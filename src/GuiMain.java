@@ -118,56 +118,56 @@ public class GuiMain extends JFrame implements ActionListener,MouseListener{
 		jse.setBounds(650, 0, 5, 50);
 		
 		/*--------------------------------Button Connection------------------------------------*/
-		btnConnect = new JButton(new ImageIcon("./image/network.png"));
+		btnConnect = new JButton(new ImageIcon("./image/ic_connect_server_resize.png"));
 		btnConnect.setBounds(660,3, 45, 45);
 		
 		/*--------------------------------Button Disconnect------------------------------------*/
-		btnDisconnect = new JButton(new ImageIcon("./image/gtk-disconnect.png"));
+		btnDisconnect = new JButton(new ImageIcon("./image/ic_disconnect_server.png"));
 		btnDisconnect.setBounds(660, 3, 45, 45);
 		
 		/*--------------------------------Button Download------------------------------------*/
-		btnDownload = new JButton(new ImageIcon("./image/download02.png"));
-		btnDownload.setPressedIcon(new ImageIcon("./image/download01.png"));
-		btnDownload.setRolloverIcon(new ImageIcon("./image/download01.png"));
+		btnDownload = new JButton(new ImageIcon("./image/ic_download.png"));
+		btnDownload.setPressedIcon(new ImageIcon("./image/ic_download.png"));
+		btnDownload.setRolloverIcon(new ImageIcon("./image/ic_download.png"));
 		btnDownload.setBounds(0, 160, 50, 50);
 		btnDownload.setBorderPainted(false); 
 		btnDownload.setContentAreaFilled(false);
 		/*--------------------------------Button Upload------------------------------------*/
-		btnUpload = new JButton(new ImageIcon("./image/upload02.png"));
-		btnUpload.setPressedIcon(new ImageIcon("./image/upload01.png"));
-		btnUpload.setRolloverIcon(new ImageIcon("./image/upload01.png"));
+		btnUpload = new JButton(new ImageIcon("./image/ic_upload.png"));
+		btnUpload.setPressedIcon(new ImageIcon("./image/ic_upload.png"));
+		btnUpload.setRolloverIcon(new ImageIcon("./image/ic_upload.png"));
 		btnUpload.setBounds(0, 210, 50, 50);
 		btnUpload.setBorderPainted(false); 
 		btnUpload.setContentAreaFilled(false);
 		
 		/*--------------------------------Button AddFolder------------------------------------*/
-		btnAddFolde = new JButton(new ImageIcon("./image/add02.png"));
-		btnAddFolde.setPressedIcon(new ImageIcon("./image/add01.png"));
-		btnAddFolde.setRolloverIcon(new ImageIcon("./image/add01.png"));
+		btnAddFolde = new JButton(new ImageIcon("./image/ic_add.png"));
+		btnAddFolde.setPressedIcon(new ImageIcon("./image/ic_add.png"));
+		btnAddFolde.setRolloverIcon(new ImageIcon("./image/ic_add.png"));
 		btnAddFolde.setBounds(0, 60, 50, 50);
 		btnAddFolde.setBorderPainted(false); 
 		btnAddFolde.setContentAreaFilled(false);
 		
 		/*--------------------------------Button Delete------------------------------------*/
-		btnDeleteFile = new JButton(new ImageIcon("./image/delete02.png"));
-		btnDeleteFile.setPressedIcon(new ImageIcon("./image/detele01.png"));
-		btnDeleteFile.setRolloverIcon(new ImageIcon("./image/detele01.png"));
+		btnDeleteFile = new JButton(new ImageIcon("./image/ic_remove.png"));
+		btnDeleteFile.setPressedIcon(new ImageIcon("./image/ic_remove.png"));
+		btnDeleteFile.setRolloverIcon(new ImageIcon("./image/ic_remove.png"));
 		btnDeleteFile.setBounds(0, 110, 50, 50);
 		btnDeleteFile.setBorderPainted(false); 
 		btnDeleteFile.setContentAreaFilled(false);
 		
 		/*--------------------------------Button Refresh------------------------------------*/
-		btnRename = new JButton(new ImageIcon("./image/remane02.png"));
-		btnRename.setPressedIcon(new ImageIcon("./image/remane01.png"));
-		btnRename.setRolloverIcon(new ImageIcon("./image/remane01.png"));
+		btnRename = new JButton(new ImageIcon("./image/ic_rename.png"));
+		btnRename.setPressedIcon(new ImageIcon("./image/ic_rename.png"));
+		btnRename.setRolloverIcon(new ImageIcon("./image/ic_rename.png"));
 		btnRename.setBounds(0, 260, 50, 50);
 		btnRename.setBorderPainted(false);
 		btnRename.setContentAreaFilled(false);
 		
 		/*--------------------------------Button Refresh------------------------------------*/
-		btnRefresh = new JButton(new ImageIcon("./image/refresh01.png"));
-		btnRefresh.setPressedIcon(new ImageIcon("./image/refresh02.png"));
-		btnRefresh.setRolloverIcon(new ImageIcon("./image/refresh02.png"));
+		btnRefresh = new JButton(new ImageIcon("./image/ic_refresh.png"));
+		btnRefresh.setPressedIcon(new ImageIcon("./image/ic_refresh.png"));
+		btnRefresh.setRolloverIcon(new ImageIcon("./image/ic_refresh.png"));
 		btnRefresh.setBounds(0, 310, 50, 50);
 		btnRefresh.setBorderPainted(false);
 		btnRefresh.setContentAreaFilled(false);
@@ -261,13 +261,13 @@ public class GuiMain extends JFrame implements ActionListener,MouseListener{
 		/*----------------------------------------------------------------------------------------------*/
 		
 		JMenuItem add = new JMenuItem("Thêm thư mục");
-		add.setIcon(new ImageIcon("./image/add.png"));
+		add.setIcon(new ImageIcon("./image/ic_add.png"));
 		JMenuItem delete = new JMenuItem("Delete");
 		delete.setIcon(new ImageIcon("./image/dustbin.png"));
 		JMenuItem download = new JMenuItem("Tải xuống");
-		download.setIcon(new ImageIcon("./image/download.png"));
+		download.setIcon(new ImageIcon("./image/ic_download.png"));
 		JMenuItem upload = new JMenuItem("Tải lên");
-		upload.setIcon(new ImageIcon("./image/upload.png"));
+		upload.setIcon(new ImageIcon("./image/ic_upload.png"));
 		JMenuItem refresh = new JMenuItem("Refresh");
 		refresh.setIcon(new ImageIcon("./image/loading.png"));
 		JMenuItem rename = new JMenuItem("Rename");
@@ -286,7 +286,7 @@ public class GuiMain extends JFrame implements ActionListener,MouseListener{
 //		lbTieuDe.setFont(new Font("Segoe UI Light", 0, 22));
 //		lbTieuDe.setForeground(new Color(25,25,112));
 //		lbTieuDe.setBounds(230, 5,350, 24);
-		JLabel lbDeTai = new JLabel("CHƯƠNG TRÌNH  FTP");
+		JLabel lbDeTai = new JLabel("FTP Client");
 		lbDeTai.setFont(new Font("Segoe UI Light", 0, 18));
 		lbDeTai.setForeground(new Color(25,25,112));
 		lbDeTai.setBounds(290, 30,350, 24);
@@ -300,11 +300,11 @@ public class GuiMain extends JFrame implements ActionListener,MouseListener{
 		pnRight.setBounds(765, 0, 5, 600);
 		pnRight.setBackground(new Color(0,18,50));
 		
-		JLabel lbLogo = new JLabel(new ImageIcon("./image/cnttbk.png"));
+		JLabel lbLogo = new JLabel(new ImageIcon(""));
 		lbLogo.setBounds(0, 0, 50, 50);
-		JLabel lbHinhNen = new JLabel(new ImageIcon("./image/world.png"));
+		JLabel lbHinhNen = new JLabel(new ImageIcon("./image/back_ground_2.jpg"));
 		lbHinhNen.setBounds(0, 0, 715,350);
-		JLabel lbHinhNen1 = new JLabel(new ImageIcon("./image/connect2.png"));
+		JLabel lbHinhNen1 = new JLabel(new ImageIcon("./image/back_ground_2.jpg"));
 		lbHinhNen1.setBounds(0, 0, 715,200);
 			
 		pnLeft.add(lbLogo);
@@ -491,7 +491,7 @@ public class GuiMain extends JFrame implements ActionListener,MouseListener{
 			link = path.getText();
 			int n = link.lastIndexOf('/');
 			link = link.substring(0, n);
-			if(link.equals("")){
+			if(link == null || link.isEmpty()){
 				link = "/";
 			}
 			path.setText(link);
